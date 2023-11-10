@@ -1,1 +1,0 @@
-# Visual-Art-Influence-Explorer-
