@@ -1,0 +1,36 @@
+
+
+/* Basic styles for the entire app */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+/* Container for horizontal artworks */
+.art-container-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Individual art piece */
+.art-piece-horizontal {
+  width: 200px; /* Adjust as needed */
+  margin: 10px;
+  text-align: center;
+}
+
+.art-piece-horizontal img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc; /* Add border or adjust styling */
+}
+
+.art-piece-horizontal p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333; /* Adjust text color */
+}
+
+  
