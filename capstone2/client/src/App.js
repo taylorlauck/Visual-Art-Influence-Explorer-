@@ -57,7 +57,7 @@ const App = () => {
 
   return (
     <div className="App">
-      {!isLoggedIn ? (
+      {isLoggedIn ? (
         <div>
           <h1>Art Gallery</h1>
           <div className="art-container-horizontal">
